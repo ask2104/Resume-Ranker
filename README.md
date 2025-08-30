@@ -5,10 +5,15 @@ Resume Ranker
 Features:
 
   Parse resumes (PDF, DOCX, TXT)
+  
   Extract key info: skills, experience
+  
   Compute similarity between resumes and JD using TF-IDF + weighted scoring
+  
   Rank candidates with a fit score
+  
   Highlight matched and missing skills for explainability
+  
   Optional Streamlit web demo for interactive ranking
 
 Setup:
@@ -26,6 +31,8 @@ Setup:
 
 Usage
   Test Script: python src/test_ranker.py
+  
   Streamlit Demo: streamlit run src/app.py
+
 
 
