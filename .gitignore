@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive configs
+*.cfg
+
+# Large data/models
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.bin
+*.pt
+*.model
