@@ -13,13 +13,19 @@ Features:
 
 Setup:
   git clone https://github.com/<your-username>/resume-ranker.git
+  
   cd resume-ranker
+  
   python -m venv venv
+  
   .\venv\Scripts\Activate.ps1   # Windows PowerShell
+  
   pip install -r requirements.txt
+  
   python -m spacy download en_core_web_sm
 
 Usage
   Test Script: python src/test_ranker.py
   Streamlit Demo: streamlit run src/app.py
+
 
